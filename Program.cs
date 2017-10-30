@@ -68,8 +68,8 @@ namespace sistema_concessionaria
             }
             catch (System.Exception e)
             {
+                Log Log = new Log("Main",e.Message);               
                 
-                throw;
             }          
         } 
             
