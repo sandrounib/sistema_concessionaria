@@ -24,16 +24,14 @@ namespace sistema_concessionaria
                     switch (opcao)
                     {
                         case 1 :
-                        Cliente cliente = new Cliente();                        
-
-                            
+                        Cliente cliente = new Cliente();                       
+                       
                             cliente.CadastrarCliente();
-                            break;
-                        
+                            break;                        
 
                         case 2 :
-                           // CadastrarCarro();
-
+                            Carros car = new Carros();
+                            car.CadastarCarro();
                             break;
                             
                         case 3 :
